@@ -1,0 +1,17 @@
+V = input().split()
+a = float(V[0])
+b = float(V[1])
+c = float(V[2])
+pi = 3.14159
+
+at = a*c/2.0
+ac = pi*(c*c)
+att = (a+b)*c/2.0
+aq = b*b
+ar = a*b
+
+print("TRIANGULO: %.3f" %at)
+print("CIRCULO: %.3f" %ac)
+print("TRAPEZIO: %.3f" %att)
+print("QUADRADO: %.3f" %aq)
+print("RETANGULO: %.3f" %ar)
