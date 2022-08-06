@@ -1,0 +1,9 @@
+c1 = float(input())
+c2 = float(input())
+
+if c1>c2:
+    print('Primeiro circulo')
+elif c2>c1:
+    print('Segundo circulo')
+else:
+    print('Iguais')
